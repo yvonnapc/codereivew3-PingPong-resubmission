@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+  </head>
+  <body>
+
+    <div class="container">
+      <header class="page-header">
+        <h4>Yvonna Contreras | Epicodus | Portland, OR</h4>
+      </header>
+
+      <div class="jumbotron">
+        <h1>Let's Play Ping-Pong!</h1>
+        <p>Here is a game that will take your input and return to you a series of numbers where:</p>
+        <ul>
+          <li>Divisible by 3 returns <b>ping</b></li>
+          <li>Dividible by 5 returns <b>pong</b></li>
+          <li>Divisible by 15 returns <b>pingpong</b></i>
+        </ul>
+      </div>
+
+      <div class="sidebar">
+        <h4>About Ping-Pong:</h4>
+        <ul>
+          <li>This version is a bit different than table ping-pong</li>
+          <li>It was created by me, Yvonna!</li>
+        </ul>
+      </div>
+
+      <form id="pingPong">
+        <div class="form-group">
+          <label for="pingPongNumber">Enter your number here:</label>
+          <input id="input" type="number">
+        </div>
+
+        <button type="submit" class="btn btn-default">Lets Play!</button>
+      </form>
+
+      <div class="answer">                                                                                                                                                                                                                                                                             <ul id="results"></ul>
+      </div>
+    </div>
+
+  </body>
+  <script src="js/jquery-1.12.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="bootstrap.min.js"></script>
+</html>

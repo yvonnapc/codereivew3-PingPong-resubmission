@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-color: #0288D1;
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: #CDDC39;
+}
