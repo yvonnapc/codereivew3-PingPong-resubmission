@@ -1,4 +1,4 @@
-describe('pingpong', function(){
+describe('pingPong', function(){
   it("numbers divisible by 3 are returned with 'ping'", function (){
     expect(pingPong(3)).to.eql([1,2,'ping']);
   });
