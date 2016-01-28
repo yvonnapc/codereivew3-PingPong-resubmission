@@ -22,14 +22,14 @@ if (pingPongNumber < 1){
 $(document).ready(function() {
   $("form#pingPong").submit(function(event){
     var input = parseInt($("input#input").val());
-    var results = pingPong(input);
+    var result = pingPong(input);
     $("#results").empty();
 
-    results.forEach(function(result){
-      $("#results").append("<li>" + results + "</li>");
+    // results.forEach(function(result){
+      $("#results").append("<li>" + result + "</li>");
 
 
-    });
+    // });
 
     event.preventDefault();
     });
